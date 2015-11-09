@@ -46,7 +46,7 @@
 			</build>
 		</profile>
 		<profile>
-			<id>circle</id>
+			<id>quadrate</id>
 			<build>
 				<plugins>
 					<plugin>
