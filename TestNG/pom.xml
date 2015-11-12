@@ -25,6 +25,11 @@
 			<scope>system</scope>
 			<systemPath>${basedir}/src/main/resources/Unit Frameworks. TestNG_GeomObjects.jar</systemPath>
 		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.9</version>
+		</dependency>
 	</dependencies>
 	<profiles>
 		<profile>

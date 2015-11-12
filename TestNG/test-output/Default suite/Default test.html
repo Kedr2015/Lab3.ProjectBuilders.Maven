@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 09 18:57:32 MSK 2015</td>
+<td>Started on:</td><td>Thu Nov 12 17:30:30 MSK 2015</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (41 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (50 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.quadrate.QuadrateTest.quadrateLengthTest()'><b>quadrateLengthTest</b><br>Test class: test.quadrate.QuadrateTest<br>Parameters: 0</td>
-<td><div><pre>java.lang.AssertionError: For side = 0.0
-The test fails, the length or the number of decimal places does not match expected [0.0] but found [-1.0]
+<td title='test.circle.CircleTest.checkingAreaCircleTest()'><b>checkingAreaCircleTest</b><br>Test class: test.circle.CircleTest<br>Parameters: -1</td>
+<td><div><pre>java.lang.AssertionError: For radius = -1.0
+The test fails, the area or the number of decimal places does not match expected [3.141592653589793] but found [0.0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at test.quadrate.QuadrateTest.quadrateLengthTest(QuadrateTest.java:81)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at test.circle.CircleTest.checkingAreaCircleTest(CircleTest.java:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -106,13 +106,13 @@ The test fails, the length or the number of decimal places does not match expect
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2091156596", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2091156596'><pre>java.lang.AssertionError: For side = 0.0
-The test fails, the length or the number of decimal places does not match expected [0.0] but found [-1.0]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1651945012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1651945012'><pre>java.lang.AssertionError: For radius = -1.0
+The test fails, the area or the number of decimal places does not match expected [3.141592653589793] but found [0.0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at test.quadrate.QuadrateTest.quadrateLengthTest(QuadrateTest.java:81)
+	at org.testng.Assert.assertEquals(Assert.java:209)
+	at test.circle.CircleTest.checkingAreaCircleTest(CircleTest.java:50)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -139,7 +139,7 @@ The test fails, the length or the number of decimal places does not match expect
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
 </pre></div></td>
 <td>0</td>
-<td>test.quadrate.QuadrateTest@5474c6c</td></tr>
+<td>test.circle.CircleTest@2fc14f68</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -149,45 +149,103 @@ The test fails, the length or the number of decimal places does not match expect
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.quadrate.QuadrateTest.quadrateAreaTest()'><b>quadrateAreaTest</b><br>Test class: test.quadrate.QuadrateTest<br>Parameters: 4</td>
+<td title='test.circle.CircleTest.checkingAreaCircleTest()'><b>checkingAreaCircleTest</b><br>Test class: test.circle.CircleTest<br>Parameters: 4</td>
 <td></td>
 <td>0</td>
-<td>test.quadrate.QuadrateTest@5474c6c</td></tr>
+<td>test.circle.CircleTest@2fc14f68</td></tr>
 <tr>
-<td title='test.quadrate.QuadrateTest.quadrateAreaTest()'><b>quadrateAreaTest</b><br>Test class: test.quadrate.QuadrateTest<br>Parameters: 0</td>
+<td title='test.circle.CircleTest.checkingAreaCircleTest()'><b>checkingAreaCircleTest</b><br>Test class: test.circle.CircleTest<br>Parameters: 0</td>
 <td></td>
 <td>0</td>
-<td>test.quadrate.QuadrateTest@5474c6c</td></tr>
+<td>test.circle.CircleTest@2fc14f68</td></tr>
 <tr>
-<td title='test.quadrate.QuadrateTest.quadrateAreaTest()'><b>quadrateAreaTest</b><br>Test class: test.quadrate.QuadrateTest<br>Parameters: -1</td>
-<td></td>
+<td title='test.circle.CircleExclusionTest.checkingAreaCircleTestExclusion()'><b>checkingAreaCircleTestExclusion</b><br>Test class: test.circle.CircleExclusionTest<br>Parameters: null, 3</td>
+<td><div><pre>java.lang.NullPointerException
+	at test.circle.CircleExclusionTest.checkingAreaCircleTestExclusion(CircleExclusionTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1684106402", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1684106402'><pre>java.lang.NullPointerException
+	at test.circle.CircleExclusionTest.checkingAreaCircleTestExclusion(CircleExclusionTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+</pre></div></td>
 <td>0</td>
-<td>test.quadrate.QuadrateTest@5474c6c</td></tr>
+<td>test.circle.CircleExclusionTest@4b6995df</td></tr>
 <tr>
-<td title='test.quadrate.QuadrateTest.quadrateConstructorTest()'><b>quadrateConstructorTest</b><br>Test class: test.quadrate.QuadrateTest<br>Parameters: 4</td>
+<td title='test.circle.CircleTest.checkingLengthCircleTest()'><b>checkingLengthCircleTest</b><br>Test class: test.circle.CircleTest<br>Parameters: 4</td>
 <td></td>
 <td>0</td>
-<td>test.quadrate.QuadrateTest@5474c6c</td></tr>
+<td>test.circle.CircleTest@2fc14f68</td></tr>
 <tr>
-<td title='test.quadrate.QuadrateTest.quadrateConstructorTest()'><b>quadrateConstructorTest</b><br>Test class: test.quadrate.QuadrateTest<br>Parameters: 0</td>
+<td title='test.circle.CircleTest.checkingLengthCircleTest()'><b>checkingLengthCircleTest</b><br>Test class: test.circle.CircleTest<br>Parameters: 0</td>
 <td></td>
 <td>0</td>
-<td>test.quadrate.QuadrateTest@5474c6c</td></tr>
+<td>test.circle.CircleTest@2fc14f68</td></tr>
 <tr>
-<td title='test.quadrate.QuadrateTest.quadrateConstructorTest()'><b>quadrateConstructorTest</b><br>Test class: test.quadrate.QuadrateTest<br>Parameters: -1</td>
+<td title='test.circle.CircleTest.checkingLengthCircleTest()'><b>checkingLengthCircleTest</b><br>Test class: test.circle.CircleTest<br>Parameters: -1</td>
 <td></td>
 <td>0</td>
-<td>test.quadrate.QuadrateTest@5474c6c</td></tr>
+<td>test.circle.CircleTest@2fc14f68</td></tr>
 <tr>
-<td title='test.quadrate.QuadrateTest.quadrateLengthTest()'><b>quadrateLengthTest</b><br>Test class: test.quadrate.QuadrateTest<br>Parameters: 4</td>
+<td title='test.circle.CircleTest.circleConstructorTest()'><b>circleConstructorTest</b><br>Test class: test.circle.CircleTest<br>Parameters: 4</td>
 <td></td>
 <td>0</td>
-<td>test.quadrate.QuadrateTest@5474c6c</td></tr>
+<td>test.circle.CircleTest@2fc14f68</td></tr>
 <tr>
-<td title='test.quadrate.QuadrateTest.quadrateLengthTest()'><b>quadrateLengthTest</b><br>Test class: test.quadrate.QuadrateTest<br>Parameters: -1</td>
+<td title='test.circle.CircleTest.circleConstructorTest()'><b>circleConstructorTest</b><br>Test class: test.circle.CircleTest<br>Parameters: 0</td>
 <td></td>
 <td>0</td>
-<td>test.quadrate.QuadrateTest@5474c6c</td></tr>
+<td>test.circle.CircleTest@2fc14f68</td></tr>
+<tr>
+<td title='test.circle.CircleTest.circleConstructorTest()'><b>circleConstructorTest</b><br>Test class: test.circle.CircleTest<br>Parameters: -1</td>
+<td></td>
+<td>0</td>
+<td>test.circle.CircleTest@2fc14f68</td></tr>
 </table><p>
 </body>
 </html>
